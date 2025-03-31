@@ -7,7 +7,7 @@ first_name: Johann
 middle_name: 
 last_name: Wenckstern
 contact_note: >
-  You can reach me best via mail at <johann.wenckstern@epfl.ch>.
+  You can reach me best via mail at johann (dot) wenckstern (at) epfl (dot) ch>.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   
 footer_text: >
