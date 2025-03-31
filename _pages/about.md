@@ -26,5 +26,5 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-Hello! I am a Computer Science PhD student in the [AIMM Lab](https://aimm.epfl.ch/) at EPFL supervised by Prof. Charlotte Bunne. Before joining EPFL, I completed my Bachelor's and Master's degree in Mathematics at ETH Zurich.
+Hello! I am a Computer Science PhD student in the [AIMM Lab](https://aimm.epfl.ch/) at EPFL supervised by [Charlotte Bunne](https://people.epfl.ch/charlotte.bunne?lang=en). Before joining EPFL, I completed my Bachelor's and Master's degree in Mathematics at ETH Zurich.
 
