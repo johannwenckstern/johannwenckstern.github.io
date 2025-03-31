@@ -181,6 +181,7 @@ exclude:
   - _pages/books.md
   - _pages/dropdown.md
   - _pages/people.md
+  - _pages/profiles.md
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
