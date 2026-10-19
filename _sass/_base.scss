@@ -289,6 +289,7 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    text-transform: capitalize;
 
     &:hover {
       color: var(--global-hover-color);
@@ -401,23 +402,23 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.8rem;
 
     a {
       img {
-        width: 3.2rem;
-        height: 3.2rem;
-        margin-bottom: 1rem;
+        width: 2.24rem;
+        height: 2.24rem;
+        margin-bottom: 0.7rem;
       }
 
       svg {
-        width: 3.5rem;
-        height: 4rem;
-        margin-bottom: 0.5rem;
+        width: 2.45rem;
+        height: 2.8rem;
+        margin-bottom: 0.35rem;
 
         image {
-          width: 3.5rem;
-          height: 3.5rem;
+          width: 2.45rem;
+          height: 2.45rem;
         }
       }
 
@@ -714,7 +715,7 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-text-color-light);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
@@ -790,7 +791,7 @@ footer.sticky-bottom {
       .links {
         a.btn {
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          border: 1.5px solid var(--global-text-color);
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
@@ -992,7 +993,7 @@ progress::-moz-progress-bar {
   position: relative;
 
   .copy {
-    background: var(--global-card-bg-color);
+    background: transparent;
     border-color: var(--global-bg-color);
     border-radius: 0.3rem;
     border-style: none;
@@ -1007,7 +1008,7 @@ progress::-moz-progress-bar {
   &:active .copy,
   &:focus .copy,
   &:hover .copy {
-    color: var(--global-hover-color);
+    color: var(--global-theme-color);
     opacity: 1;
   }
 }
@@ -1415,5 +1416,61 @@ figure.cover {
   /* mouse over link */
   a.cover-link:hover {
     color: #23212d !important;
+  }
+}
+
+// BibTeX popup on publication entries
+.publications ol.bibliography li .bibtex {
+  figure.highlight {
+    margin: 0.5rem 0 0;
+  }
+
+  pre {
+    color: var(--global-text-color);
+    background-color: rgba(0, 0, 0, 0.03);
+    border: 1px solid var(--global-divider-color);
+    border-left: 3px solid var(--global-theme-color);
+    border-radius: 4px;
+    padding: 0.75rem 1rem;
+    white-space: pre;
+    overflow-x: auto;
+    text-align: left;
+  }
+
+  // Rouge flags non-ASCII characters (ü, é, &) as errors; don't highlight them
+  .err {
+    color: inherit;
+    background-color: transparent;
+  }
+
+  // Replace the GitHub theme's red strings with the site palette:
+  // values in text color, field names and entry type in the theme color
+  .s,
+  .s1,
+  .s2,
+  .sb,
+  .sc,
+  .sd,
+  .se,
+  .sh,
+  .si,
+  .sx,
+  .m,
+  .mi,
+  .p,
+  .o {
+    color: var(--global-text-color);
+    font-weight: normal;
+  }
+
+  .na,
+  .nv,
+  .nl,
+  .nf,
+  .ne,
+  .nc,
+  .k,
+  .kt {
+    color: var(--global-theme-color);
   }
 }

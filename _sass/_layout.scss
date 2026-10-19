@@ -2,6 +2,10 @@
  * Content
  ******************************************************************************/
 
+html {
+  font-size: 18px; // browser default is 16px; all rem-based sizes scale from this
+}
+
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
@@ -19,7 +23,7 @@ body {
 
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
-  padding-top: 56px;
+  padding-top: 63px;
 }
 
 body.sticky-bottom-footer {
