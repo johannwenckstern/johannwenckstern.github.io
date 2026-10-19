@@ -4,12 +4,12 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Johann
-middle_name: 
+middle_name:
 last_name: Wenckstern
 contact_note: >
   You can reach me best via mail at johann (dot) wenckstern (at) epfl (dot) ch.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  
+
 footer_text: >
 
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
@@ -194,7 +194,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
